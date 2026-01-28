@@ -7,8 +7,8 @@
 }
 
 .container {
-    margin: auto 40px;
     font-family: Arial, sans-serif;
+    margin: 0 40px;
 }
 
 /* Header styles */
@@ -18,7 +18,6 @@ header {
     align-items: center;
     justify-content: flex-end;
 }
-
 .site-status {
     display: flex;
     align-items: center;
@@ -45,7 +44,7 @@ header {
 /* Navigation styles */
 nav {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     padding: 20px 0;
 }
@@ -69,15 +68,24 @@ nav ul li a:hover {
 /* profile section styles */
 #profile-section {
     display: flex;
-    justify-content: space-around;
     margin: 40px 0;
     align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
 
-img {
+#profile-section img {
     border-radius: 50%;
-    width: 150px;
-    height: 150px;
+    width: 245px;
+    height: 245px;
+}
+.profile-info {
+    max-width: 400px;
+    margin-left: 20px;
+    font-size: 1.2em;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
 }
 
 /* all h2 headings */
@@ -136,7 +144,7 @@ h2 {
 /* Contact section styles */
 .contact-container {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
 }
