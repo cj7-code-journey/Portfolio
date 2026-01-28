@@ -1,27 +1,70 @@
 /* style.css */
 /* Reset styles */
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-/* Header styles */
-header{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px;
-    background-color: #7cd8a3;
+
+.container {
+    margin:auto 40px;
+    font-family: Arial, sans-serif;
 }
+
 /* Navigation styles */
-nav ul{
+nav {
     display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 0;
+}
+nav ul{
     list-style: none;
+    display: flex;
     gap: 20px;
 }
-nav ul li a{
+nav ul li a {
     text-decoration: none;
-    color: #373636;
+    color: #333;
     font-weight: bold;
-    font-size: 18px;
+}
+nav ul li a:hover {
+    color: #007BFF;
+}
+/* profile section styles */
+.profile-section{
+    display:flex;
+    justify-content: space-around;
+    margin: 40px 0;
+    align-items: center;
+}
+img{
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+/* all h2 headings */
+h2{
+    text-align: center;
+    margin: 40px 0;
+}
+/* skills section styles */
+.skills-container{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.skills-container ul{
+    list-style-position: inside;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 10px;
+}
+.skills-container ul li{
+    background-color: #f0f0f0;
+    padding: 10px 15px;
+    border-radius: 5px;
 }
