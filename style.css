@@ -67,7 +67,7 @@ nav ul li a:hover {
 }
 
 /* profile section styles */
-.profile-section {
+#profile-section {
     display: flex;
     justify-content: space-around;
     margin: 40px 0;
