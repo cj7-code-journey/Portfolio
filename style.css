@@ -164,18 +164,26 @@ h2 {
 }
 
 .project-card {
-    border: 1px solid #151515;
-    border-radius: 5px;
-    padding: 20px;
+    border: 2px solid #151515;
+    border-radius: 10px;
     width: 250px;
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 4px;
+    padding: 2px;
 }
 
 .project-card img {
     width: 100%;
-    border-radius: 5px;
+    border-radius: 10px;
+
+}
+
+.project-content {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
 
 /* Contact section styles */
@@ -224,4 +232,7 @@ footer {
 
 footer p {
     margin: 5px 0;
+    font-size: 0.9em;
+    color: #333;
+
 }
