@@ -192,6 +192,7 @@ h2 {
     gap: 20px;
     align-items: center;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .contact-container address {
@@ -208,20 +209,36 @@ h2 {
 }
 
 .contact-container div {
+    margin: 0 auto;
     width: 50%;
     border: 1px solid #151515;
     border-radius: 5px;
     padding: 10px;
 }
 
-.contact-container ul {
+.contact-container div ul {
     list-style: none;
     display: flex;
     justify-content: space-around;
+    align-items: center;
     gap: 20px;
     flex-wrap: wrap;
 }
-
+.contact-container div ul li a{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.contact-container div ul li img{
+    width: 60px;
+    border-radius: 50%;
+    padding-bottom: 4px;
+}
+.contact-container div ul li p{
+    border: 1px solid #151515;
+    padding: 5px 8px;
+}
 /* footer */
 footer {
     text-align: center;
